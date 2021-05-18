@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="az">
+
+<head>
+    <meta charset="UTF-8" />
+    <title>Kitablar</title>
+    <link rel="stylesheet" href="asset/css/style.css" />
+</head>
+
+<body>
+
+    <div id="header">
+        <h1>
+            Kitablar
+        </h1>
+    </div>
+
+    <div id="nav">
+        <ul>
+            <li><a href="index.html">Ana sehife</a></li>
+            <li><a href="brown.html">Dan Brown</a></li>
+            <li><a href="vern.html">Jul Vern</a></li>
+            <li><a href="elaqe.html">Elaqe</a></li>
+        </ul>
+    </div>
+
+    <div id="main">
+
+        <div id="content">
+            <h2 style="padding-left: 300px;">Əlaqə</h2>
+
+            <div style="padding-left: 300px;">
+                <form action="#" method="POST">
+
+                    <table width="520px">
+                        <tr>
+                            <td>
+                                <fieldset>
+                                    <legend><b>Şəxsi məlumat</b></legend>
+
+                                    <table width="300px">
+                                        <tr>
+                                            <td width="40%"> <label for="name">Ad <font color="red">*</font></label> </td>
+                                            <td> <input type="text" name="name" id="name" required="required" /> </td>
+                                        </tr>
+
+                                        <tr>
+                                            <td width="40%"> <label for="surname">Soyad <font color="red">*</font></label> </td>
+                                            <td> <input type="text" name="surname" id="surname" required="required" /> </td>
+                                        </tr>
+
+                                        <tr>
+                                            <td width="40%"> <label for="age">Yaş <font color="red">*</font></label> </td>
+                                            <td> <input type="number" name="age" id="age" min="15" max="75" required="required" /> </td>
+                                        </tr>
+
+                                        <tr>
+                                            <td width="40%"> <label for="book">Sevdiyiniz kitab</label> </td>
+                                            <td> <input type="text" name="book" id="book" /> </td>
+                                        </tr>
+
+                                        <tr>
+                                            <td width="40%"> <label for="gender">Cins</label> </td>
+                                            <td>
+                                                <select name="gender" id="gender">
+                                                    <option value="">Cinsinizi seçin</option>
+                                                    <option value="Male">Kişi</option>
+                                                    <option value="Female">Qadın</option>
+                                                    <option value="Other">Digər</option>
+                                                </select>
+                                            </td>
+                                        </tr>
+                                    </table>
+                                </fieldset>
+
+                                <br />
+
+                                <fieldset>
+                                    <legend>Əlaqə Təfərrüatları</legend>
+
+                                    <table width="300px">
+                                        <tr>
+                                            <td width="40%"> <label for="email">Email <font color="red">*</font></label> </td>
+                                            <td> <input type="email" name="email" id="email" required="required" /> </td>
+                                        </tr>
+
+                                        <tr>
+                                            <td width="40%"> <label for="phone">Telefon <font color="red">*</font></label> </td>
+                                            <td> <input type="tel" name="phone" id="phone" required="required" /> </td>
+                                        </tr>
+
+                                        <tr>
+                                            <td width="40%"> <label for="add_phone">Əlavə telefon</label> </td>
+                                            <td> <input type="tel" name="add_phone" id="add_phone" /> </td>
+                                        </tr>
+                                    </table>
+                                </fieldset>
+
+                                <br />
+
+                                <input type="checkbox" name="permission" id="permission" required="required" /> <label for="permission">Məlumat əldə etmək üçün şəxsi məlumatlarımın istifadəsinə
+                                və mənimlə əlaqə saxlanılmağına icazə verirəm.</label>
+                            </td>
+                        </tr>
+                    </table>
+
+                    <br />
+
+                    <button type="confirm">Təsdiqlə</button>
+
+                </form>
+            </div>
+        </div>
+
+        <div id="ads">
+            <img src="asset/img/ad4.png" alt="reklam" title="Reklam">
+        </div>
+
+    </div>
+
+    <div id="footer">
+        <p>
+            &copy; Taleh Taghiyev 2021
+        </p>
+    </div>
+
+</body>
+
+</html>
